@@ -14,10 +14,12 @@
     
     $size = 60;
     $cm_length = 200;
-    $sections = 12;
+    $sections = 5;
 
     $number_of_cm = $size / 10;
-    $mm_length = $cm_length / 10;
+
+
+    $mm_length = $cm_length / $sections;
 
     ?>
 
